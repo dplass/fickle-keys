@@ -1,0 +1,12 @@
+Turns your trustworthy keyboard input into fickle, uncertain input, for example, to simulate a BCI.
+
+TO BE IMPLEMENTED
+- catch (specified) keys, transform them, throw keys up again
+  - or perhaps: just show the interpretation / result on screen, not transforming the actual input
+- transforms to create uncertainty:
+  - confusion matrix (for specified keys)
+  - list of delay ranges (for specified keys)
+- transforms to then again diminish uncertainty:
+  - exponential smoothing
+  - refractory period
+  - adaptive z-score normalization ? (somewhat tricky with hard labels)
